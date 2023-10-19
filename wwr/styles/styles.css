@@ -8,6 +8,10 @@
 .home a{
     color: white;
     text-decoration: none;
+.main{
+    font-family: Playfair, lato, Helvetica, sans-serif;
+    font-size: 2em;
+}
 }
 .one{
     margin: 10px;
