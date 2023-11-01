@@ -10,6 +10,15 @@
     display: grid;
     grid-template-columns: 150px auto;
 }
+.nav {
+    display: flex;
+    justify-content: space-around;
+}
+#logo_link {
+    padding-top: 5px;
+    justify-self: center;
+    align-self: center;
+}
 .home a{
     color: white;
     text-decoration: none;
