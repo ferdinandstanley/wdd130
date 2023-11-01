@@ -6,6 +6,10 @@
 .home{
     background-color: rgb(67, 69, 69);
 }
+.header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 .home a{
     color: white;
     text-decoration: none;
