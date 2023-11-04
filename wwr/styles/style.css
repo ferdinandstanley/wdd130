@@ -71,9 +71,11 @@ nav {
     background-color: lightgray; 
 }
 .mountains {
+    width: 100;
     grid-column: 2 / 8;
     grid-row: 5 / 9; 
     background-color: lightgray; 
+    box-shadow: 5px 5px 10px #6f7364;
 }
 .msg {
     grid-column: 6 / 11;
