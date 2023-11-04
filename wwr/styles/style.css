@@ -3,6 +3,10 @@
     padding: 0;
     font-size: 22px;
 } 
+header {
+    display: grid;
+    grid-template-columns: 150px auto;
+}
 .home{
     background-color: rgb(67, 69, 69);
 }
