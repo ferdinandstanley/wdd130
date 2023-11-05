@@ -33,9 +33,11 @@ nav {
     margin-top: -100px; 
 }
 #hero-msg {
+    display: grid;
     grid-column: 2/3;
     grid-row: 1/2;
     margin-top: 100px;
+    text-align: center;
 }
 #hero-box {
     grid-column: 1/4;
@@ -212,6 +214,7 @@ footer {
     padding-top: 15px;
 }
 .home-title {
+    color: #d9c2a3;
     font-family: 'Lobster', sans-serif;
     font-family: 'Rock Salt', cursive;
     font-size: 2em;
