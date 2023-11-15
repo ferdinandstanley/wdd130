@@ -208,6 +208,51 @@ nav {
     display: grid;
     grid-template-columns: 1/10;
 }
+
+
+/* Our Blog [Page 2]  */
+
+#blog-hero-img {
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
         display: block;
