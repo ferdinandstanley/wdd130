@@ -270,6 +270,12 @@ nav {
     color: black;
     margin-right: 70px;
 }
+.blog-post-container {
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
+}
 .blog-post-b {
     max-width: 600px;
     margin: 20px auto;
