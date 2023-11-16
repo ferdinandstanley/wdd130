@@ -302,6 +302,22 @@ nav {
     color: black;
     margin-right: 70px;
 }
+.blog-post-abcd {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.blog-post-abcd img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.blog-content-abcd {
+    max-width: 45%;
+    color: black;
+    margin-right: 70px;
+}
 .blog-post-container {
     display: grid;
     row-gap: 50px;
