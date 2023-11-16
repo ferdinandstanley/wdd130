@@ -247,7 +247,7 @@ nav {
 .blog-book {
     color: black;
     background-color: #ffffff;
-    text-shadow: 1px 1px 0px #1a1a1a;
+    text-shadow: 0.5px 0.5px 0px #1a1a1a;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
