@@ -277,9 +277,9 @@ nav {
     justify-content: space-between;
 }
 .blog-post-b {
-    max-width: 600px;
-    margin: 20px auto;
+    width: 30%;
     text-align: center;
+    box-sizing: border-box;
 }
 .blog-post-b img {
     width: 100%;
