@@ -215,11 +215,33 @@ nav {
 #blog-hero-img {
     width: 100%;
 }
-
-
-
-
-
+#blog-hero {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    margin-top: -100px;
+}
+#blog-hero-box {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#blog-hero-msg {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+.blog-title {
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    color: bisque;
+    margin-top: 10px;
+}
+#hero-msg h1 {
+    text-align: center;
+} 
+.button-box {
+    text-align: center;
+}
 
 
 
