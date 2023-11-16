@@ -277,8 +277,11 @@ nav {
     grid-template-columns: 1fr 3fr 1fr;
     gap: 20px;
 }
+
 .blog-post-b {
+    width: 30%;
     text-align: center;
+    box-sizing: border-box;
 }
 .blog-post-b img {
     width: 100%;
