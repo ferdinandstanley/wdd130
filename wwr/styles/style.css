@@ -271,7 +271,8 @@ nav {
     margin-right: 70px;
 }
 .blog-post-conatainer {
-    grid-template-columns: 1fr 1fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
     max-width: 1200px;
     margin: 20px auto;
     display: flex;
