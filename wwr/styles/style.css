@@ -241,11 +241,12 @@ nav {
 } 
 .blog-button-box {
     text-align: center;
+    box-shadow: #6f7364;
 }
 .blog-book {
     color: black;
     background-color: #ffffff;
-    box-shadow: #6f7364;
+    text-shadow: #6f7364;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
