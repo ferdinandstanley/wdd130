@@ -273,10 +273,10 @@ nav {
 .blog-post-conatainer {
     display: grid;
     grid-template-columns: 1fr 3fr 1fr;
-    max-width: 1200px;
+    /* max-width: 1200px;
     margin: 20px auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; */
 }
 .blog-post-b {
     width: 30%;
