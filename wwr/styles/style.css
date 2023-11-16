@@ -235,7 +235,7 @@ nav {
     font-size: 2em;
     color: #ffffff;
     margin-top: 10px;
-    text-shadow: #151515;
+    text-shadow: 1px 1px 0px #151515;
 }
 #blog-hero-msg h1 {
     text-align: center;
