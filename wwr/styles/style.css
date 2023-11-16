@@ -318,8 +318,15 @@ nav {
     color: black;
     margin-right: 70px;
 }
+.blog-text {
+    text-align: center;
+    margin: 20px 0;
+    line-height: 1.6;
+    color: #000000;
+    width: 100%;
+}
 .blog-post-container {
-    max-width: 1000px;
+    max-width: 1400px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
