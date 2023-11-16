@@ -322,11 +322,14 @@ nav {
     display: grid;
     grid-template-columns: auto;
     text-align: center;
-    margin: 20px 0;
+    margin: 20px 20px;
     line-height: 1.6;
     color: #000000;
     width: 100%;
+    align-content: center;
     align-items: center;
+    padding-left: 30px;
+    padding-right: 50px;
 }
 .blog-post-container {
     max-width: 1400px;
