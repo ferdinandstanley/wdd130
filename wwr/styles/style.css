@@ -254,8 +254,20 @@ nav {
     margin-top: 50px;
     border-radius: 5px;
 } 
-
-
+.blog-post-a {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.blog-post-a img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.blog-content-a {
+    max-width: 45%;
+}
 
 
 
