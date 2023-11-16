@@ -319,7 +319,10 @@ nav {
     margin-right: 70px;
 }
 .blog-post-container {
-    display: grid;
+    max-width: 1200px;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-between;
     row-gap: 50px;
 }
 .blog-post-b {
