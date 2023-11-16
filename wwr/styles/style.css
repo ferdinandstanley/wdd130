@@ -319,7 +319,7 @@ nav {
     margin-right: 70px;
 }
 .blog-post-container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
