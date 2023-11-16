@@ -235,18 +235,19 @@ nav {
     font-size: 2em;
     color: #ffffff;
     margin-top: 10px;
+    text-shadow: #151515;
 }
 #blog-hero-msg h1 {
     text-align: center;
 } 
 .blog-button-box {
     text-align: center;
-    box-shadow: #6f7364;
+    box-shadow: #141413;
 }
 .blog-book {
     color: black;
     background-color: #ffffff;
-    text-shadow: #6f7364;
+    text-shadow: #1a1a1a;
     text-decoration: none;
     font-size: 18px;
     padding: 15px 30px;
