@@ -270,12 +270,6 @@ nav {
     color: black;
     margin-right: 70px;
 }
-/* .blog-post-container {
-    max-width: 800px;
-    margin: 20px auto;
-    display: flex;
-    gap: 20px;
-} */
 .blog-post-container {
     display: grid;
     row-gap: 50px;
@@ -323,7 +317,6 @@ p {
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
-
 .round-button:hover {
     background-color: #2980b9;
 }
