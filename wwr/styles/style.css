@@ -270,6 +270,38 @@ nav {
     color: black;
     margin-right: 70px;
 }
+.blog-post-ab {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.blog-post-ab img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.blog-content-ab {
+    max-width: 45%;
+    color: black;
+    margin-right: 70px;
+}
+.blog-post-abc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.blog-post-abc img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+}
+.blog-content-abc {
+    max-width: 45%;
+    color: black;
+    margin-right: 70px;
+}
 .blog-post-container {
     display: grid;
     row-gap: 50px;
