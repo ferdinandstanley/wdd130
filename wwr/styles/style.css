@@ -236,13 +236,21 @@ nav {
     color: bisque;
     margin-top: 10px;
 }
-#hero-msg h1 {
+#blog-hero-msg h1 {
     text-align: center;
 } 
-.button-box {
+.blog-button-box {
     text-align: center;
 }
-
+.blog-book {
+    color: black;
+    background-color: #DAC3A4;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+} 
 
 
 
