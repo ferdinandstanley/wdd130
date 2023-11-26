@@ -8,6 +8,55 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&display=swap" rel="stylesheet">
+    <script>
+        filterSelection("all") // Execute the function and show all columns
+function filterSelection(c) {
+  var x, i;
+  x = document.getElementsByClassName("column");
+  if (c == "all") c = "";
+  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+  for (i = 0; i < x.length; i++) {
+    w3RemoveClass(x[i], "show");
+    if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+  }
+}
+
+// Show filtered elements
+function w3AddClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    if (arr1.indexOf(arr2[i]) == -1) {
+      element.className += " " + arr2[i];
+    }
+  }
+}
+
+// Hide elements that are not selected
+function w3RemoveClass(element, name) {
+  var i, arr1, arr2;
+  arr1 = element.className.split(" ");
+  arr2 = name.split(" ");
+  for (i = 0; i < arr2.length; i++) {
+    while (arr1.indexOf(arr2[i]) > -1) {
+      arr1.splice(arr1.indexOf(arr2[i]), 1);
+    }
+  }
+  element.className = arr1.join(" ");
+}
+
+// Add active class to the current button (highlight it)
+var btnContainer = document.getElementById("myBtnContainer");
+var btns = btnContainer.getElementsByClassName("btn");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+    var current = document.getElementsByClassName("active");
+    current[0].className = current[0].className.replace(" active", "");
+    this.className += " active";
+  });
+}
+    </script>
 </head>
 <body>
     <div id="content">
@@ -34,6 +83,83 @@
             </div>
             <img src="images/homepage1.jpg" alt="Web developer">
         </section>
+        <h2>PORTFOLIO</h2>
+        <div id="myBtnContainer">
+        <button class="btn active" onclick="filterSelection('all')"> Show all</button>
+        <button class="btn" onclick="filterSelection('nature')"> Mobile App</button>
+        <button class="btn" onclick="filterSelection('cars')"> Website</button>
+        <button class="btn" onclick="filterSelection('people')"> Motion Design</button>
+        </div>
+
+        <!-- Portfolio Gallery Grid -->
+        <div class="row">
+        <div class="column nature">
+            <div class="content">
+            <img src="images/moblie-app1.jpg" alt="Mobile-App" style="width:100%">
+            <h4>Mobile App</h4>
+            <p>This is a mobile banking application.</p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+            <img src="images/mobile-app2.jpg" alt="Mobile-App" style="width:100%">
+            <h4>Mobile App</h4>
+            <p>A mobile banking application.</p>
+            </div>
+        </div>
+        <div class="column nature">
+            <div class="content">
+            <img src="images/mobile-app3.jpg" alt="Mobile-App" style="width:100%">
+            <h4>Mobile App</h4>
+            <p>Mobile Banking Application.</p>
+            </div>
+        </div>
+
+        <div class="column cars">
+            <div class="content">
+            <img src="images/website1.png" alt="Website" style="width:100%">
+            <h4>Website</h4>
+            <p>An information website.</p>
+            </div>
+        </div>
+        <div class="column cars">
+            <div class="content">
+            <img src="images/website2.png" alt="Website" style="width:100%">
+            <h4>Website</h4>
+            <p>A Movie Production website.</p>
+            </div>
+        </div>
+        <div class="column cars">
+            <div class="content">
+            <img src="images/website3.png" alt="Website" style="width:100%">
+            <h4>Website</h4>
+            <p>A Multi-media Company website.</p>
+            </div>
+        </div>
+
+        <div class="column people">
+            <div class="content">
+            <img src="images/brand-design1.png" alt="Motion-Design" style="width:100%">
+            <h4>Motion Graphics Design</h4>
+            <p>This is a motion design of a brand.</p>
+            </div>
+        </div>
+        <div class="column people">
+            <div class="content">
+            <img src="images/brand-design2.png" alt="Motion-Design" style="width:100%">
+            <h4>Motion Graphics</h4>
+            <p>Motion Graphics illustration of a new product.</p>
+            </div>
+        </div>
+        <div class="column people">
+            <div class="content">
+            <img src="images/brand-design3.png" alt="Motion-Design" style="width:100%">
+            <h4>2 & 3D Animation</h4>
+            <p>A full display of an app in 2 & 3D design.</p>
+            </div>
+        </div>
+        <!-- END GRID -->
+        </div>
         <section class="whyus-post-b">
             <div>
                 <img src="images/what we do1.jpg" alt="why us images">
