@@ -9,86 +9,103 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Playfair+Display&display=swap" rel="stylesheet">
 </head>
-<body>
+  <body>
     <div id="content">
+        <div id="aboutme-nav">
         <header>
             <a id="logo_link" href="index.html">
-                <img class="logo" src="images/shekelz logo.png" alt="Web Development">
+                <img class="logo" src="images/shekelz_logo-new.png" alt="Web Development">
             </a>
             <nav>
                 <a href="index.html">Home</a>
-                <a href="#">Why us</a>
-                <a href="#">About me</a>
+                <a href="whyus.html">Why us</a>
+                <a href="aboutme.html">About me</a>
             </nav>
         </header>
-        <div id="aboutme_hero">
-            <div id="aboutme-hero-box">
-                <img id="aboutme-hero-img" src="images/why visit us.jpg" alt="climbing high">
-            </div>
-            <section id="aboutme-hero-msg">
-                <h1 class="aboutme-title">ABOUT ME<h1>
-                <p>
-                    I am professionally responsible for designing, creating, and maintaining websites. 
-                    My primary focus is on the technical aspects of a website, ensuring that 
-                    it functions smoothly and provides a positive user experience.
+        </div>
+    </div>
+        <section class="aboutme-blog-post-a">
+          <img src="images/stanley-ferdinand.jpg" alt="Blog Image">
+          <div class="aboutme-blog-content-a">
+              <h1>ABOUT ME</h1>
+              <p>
+                I am professionally responsible for designing, creating, and maintaining websites. 
+                My primary focus is on the technical aspects of a website, ensuring that 
+                it functions smoothly and provides a positive user experience.
+              </p>
+              <p>
+                  2. Personal Insights: Beyond the professional view, discover the person behind the skills. 
+                  Why us section provides a window into my thoughts, experiences, and industry insights. 
+                  Expect candid reflections on my journey, lessons learned, and opinions on the latest trends
+                  in the web developing space. And also Connect with me on a personal level as 
+                  I share the triumphs and tribulations of my career.
                 </p>
-            </section>
+                <p>
+                  3. Collaborative Opportunities: Are you looking for a dynamic collaborator for your next project? 
+                  This is where I detail my collaboration philosophy, preferred project types, and how you can get in touch. 
+                  Let's discuss how our synergies can create something amazing.
+              </p>
           </div>
+      </section>
     <div>
     <main>
-        <div>
+        <div class="aboutme-info">
             <p class="aboutme-paragraph">
+                <h2> Area of Expertise</h2>
                 <P>
-                    Coding and Programming:
+                  <h3> Coding and Programming: </h3>
                     I am proficient in coding languages such as HTML, CSS and Python. I use these languages to build the structure, layout, and functionality of a website.
-                  </P>
-                  <p>
-                    Front-End Development:
-                    I develop and focus on the visual elements of a website that users interact with directly. I work on aspects like navigation menus, buttons, forms, and overall user interface design
-                  </p>
-                  <p>
-                    Back-End Development:
+                <p>
+                    <h3> Front-End Development: </h3>
+                    I develop and focus on the visual elements of a website that users interact with directly. I work on aspects like navigation menus, buttons, forms, and overall user interface design.
+                <p>
+                    <h3> Back-End Development: </h3>
                     I develop deal with the server-side of a website. I manage databases, server applications, and ensure that data is securely processed and stored.
-                  </p>
-                  <p>
-                    Web Frameworks and Content Management Systems (CMS):
+                <p>
+                    <h3> Web Frameworks and Content Management Systems (CMS): </h3>
                     I also integrate websites with CMS platforms like WordPress.
-                  </p>
-                  <p>
-                    Testing and Debugging:
+                <p>
+                    <h3> Testing and Debugging: </h3>
                     Ensuring the functionality and performance of a website is crucial. I conduct testing and debugging to identify and fix any issues or bugs in the code.
-                  </p>
-                  <p>
-                    Responsive Design:
+                <p>
+                    <h3> Responsive Design: </h3>
                     With the prevalence of various devices, I implement responsive design techniques to ensure that websites work seamlessly across desktops, tablets, and mobile devices.
-                  </p>
-                  <p>
-                    Collaboration:
+                <p>
+                    <h3> Collaboration: </h3>
                     I collaborate with designers, content creators, and other stakeholders to ensure the website meets both technical and design requirements.
-                  </p>
-                  <p>
-                    Security:
+                <p>
+                    <h3> Security: </h3>
                     I Implement security measures to protect a website from potential threats and vulnerabilities.
-                </p>
         </div>
         <div class="aboutme-container">
-            <img src="images/what we do1.jpg" alt="About me">
-            <img src="images/what we do2.jpg" alt="About me">
+            <img src="images/homepage3.jpg" alt="About me">
+            <img src="images/why_visit_us.jpg" alt="About me">
         </div>
-        <h1>Contact Form</h1>
+        <div class="container">
+            <h3>Contact Form</h3>
+            <form action="action_page.php">
+          
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">Country</label>
+              <select id="country" name="country">
+                <option value="australia">Australia</option>
+                <option value="canada">Canada</option>
+                <option value="usa">USA</option>
+              </select>
+          
+              <label for="subject">Subject</label>
+              <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+          
+              <input type="submit" value="Submit">
+          
+            </form>
+        </div>
 
-        <form action="/submit_form" method="post">
-            <label for="name">Name:</label>
-            <input type="text" id="name" name="name" required>
-
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
-
-            <label for="message">Message:</label>
-            <textarea id="message" name="message" rows="4" required></textarea>
-
-            <input type="submit" value="Submit">
-        </form>
     </main>
         <footer>
             <p>All Rights Reserved &copy; 2023 | Stanley Ferdinand</p>
