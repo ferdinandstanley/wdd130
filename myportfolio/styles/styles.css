@@ -101,6 +101,9 @@ header {
     margin-top: 50px;
     border-radius: 5px;
 } 
+.hero-button:hover {
+    background-color: #780000;
+}
 .more-button {
     color: white;
     background-color: #003049;
@@ -157,7 +160,9 @@ footer a {
 footer a:hover {
     color: #780000;
 }
-
+.more-button:hover {
+    background-color: #780000;
+}
 
 
 /* Why Us [Page 2] */
@@ -369,7 +374,7 @@ input[type=text], select, textarea {
     cursor: pointer;
 }
   
-/* When moving the mouse over the submit button, add a darker green color */
+/* When moving the mouse over the submit button, add a darker red color */
   input[type=submit]:hover {
     background-color: #C1121F;
 }
